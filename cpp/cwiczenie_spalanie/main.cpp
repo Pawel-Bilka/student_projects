@@ -4,9 +4,9 @@ using namespace std;
 int main(){
 int osoby; //ilosc osob
 float odleglosc; //przejechana ogleglosc
-float spalanie=6; //spalanie samochodu
+float spalanie=5; //spalanie samochodu
 int paliwo=50;  //ilosc paliwa w baku
-float cena=5.50;  //cena za litr paliwa
+float cena=5;  //cena za litr paliwa
 int cenaosoba; //cena za osobe
 
 
@@ -28,7 +28,7 @@ float cenazaspalonepal= cena*spalonepaliwo;
 cout<<"Cena za osobe wynosi"<<endl<< cenazaspalonepal/osoby<<"zl"<<endl;
 cout<<"Cena za spalone paliwo wynosi"<<endl<<cenazaspalonepal<<"zl"<<endl;
 
-float ilosctankowan=(spalonepaliwo/40)+1;
+int ilosctankowan=(spalonepaliwo/40)+1;
 cout<<"Ilosc tankowan wynosi"<<endl<<ilosctankowan<<endl;
 
 return 0;
