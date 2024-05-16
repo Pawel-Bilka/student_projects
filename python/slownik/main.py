@@ -1,6 +1,12 @@
-slownik = {"siema":"Hello", "dom":"house", "Nara": "Goodbye"}
+slownik = {"siema":"hello", "dom":"house", "nara": "goodbye"}
 
+print ("podaj slowo po polsku, a ja je przetlumacze na angielski")
 
+while True:
+	slowo=input()
+	if slowo in slownik:
+		print(slowo,":",slownik[slowo])
 
-for siema in slownik:
-	print(siema, ":", slownik[siema])
+	else:
+		print ("Nie ma takiego slowa")
+
